@@ -1,4 +1,4 @@
-let trabalhaPorDia = prompt("Quantas horas voce trabalha por dia?")
+let horasPorDia = prompt("Quantas horas voce trabalha por dia?")
 //prompt faz uma pergunta para quem entra no site
 let recebePorDia = prompt("Quanto você recebe por dia?")
 //prompt faz uma pergunta para quem entra no site
