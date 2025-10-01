@@ -16,6 +16,7 @@ const novoResultado = primeiroValor / segundoValor
 console.log(novoResultado)//34.5
 
 const restoDaDivisao = 34%5
+console.log(restoDaDivisao)
 
 let minhaIdade = 15
 minhaIdade = minhaIdade+1
