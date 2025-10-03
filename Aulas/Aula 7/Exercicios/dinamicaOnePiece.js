@@ -18,6 +18,8 @@ console.log("A nova recompensa do Luffy é",novaRecompensaLuffy)
 console.log("O poder do Luffy temporariamente é",poderLuffy)
 console.log("o aumento da recompensa agora é",aumentoRecompensa)*/
 
+
+//parte 2 da dinamica
 const forcaInimigo = 120
 const chanceVitoria = 0.7
 const limiteSeguranca = 0.8
