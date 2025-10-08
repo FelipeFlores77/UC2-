@@ -6,3 +6,8 @@ let idadePai = prompt("Quantos anos tem seu pai?")
 
 console.log("Seu nome é",nome,", voce nasceu em ",anoNascimento,", e em 2070 tera",2070 - anoNascimento,"anos.")
 console.log("O nome do seu pai é",nomePai,", ele nasceu no ano de ",anoAtual - idadePai,", e em 2070 tera ",2070 - 1981,"anos.")
+
+const fraseMaiuscula = "HOJE É TERÇA"
+const fraseMinuscula = fraseMaiuscula.toLowerCase()
+console.log(fraseMaiuscula)
+console.log(fraseMinuscula)

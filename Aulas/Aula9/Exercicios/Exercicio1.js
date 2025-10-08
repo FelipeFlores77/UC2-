@@ -40,7 +40,6 @@ console.log(fraseCenoura.includes("batata"))
 //replaceAll,muda palavras de uma frase(tipo abaixo foi trocado a palavra cenoura por batata).
 const novaFrase = fraseCenoura.replaceAll("cenoura", "batata")
 console.log(novaFrase)
-*/
 
 let fraseUsuario = prompt("Escreva uma frase")
 
@@ -49,3 +48,42 @@ console.log(fraseUsuario.replaceAll("o", "i"))
 console.log("O tamanho da frase é",fraseUsuario.length,"letras.")
 
 
+const raças = ["rottweiler","pinscher","labrador","pastoralemao","pitbull"]
+const posicao = prompt("Insira um numero de 0 a 4")
+console.log(raças[posicao])
+
+const pokemon = ["bulbasauro","squirtle", "charmander", "screptile"]
+console.log(pokemon.length)
+
+const seriesBoas = ["Vikings", "The Big Bang Theory"]
+console.log(seriesBoas.includes("Vikings"),seriesBoas.includes("GOT"))
+
+const numeros = [1,2,3]
+numeros.push(4)
+console.log(numeros)
+
+numeros.push(5,6,7)
+console.log(numeros)
+
+const meusPeixes = ["palhaço", "mandarim", "esturjão"]
+meusPeixes.pop(meusPeixes)
+console.log(meusPeixes)
+
+meusPeixes.pop(meusPeixes)
+console.log(meusPeixes)
+
+*/
+const letras = [ "A","B","C","D","E","F","G","H"]
+letras.splice(1,7)
+console.log(letras)
+
+const numeros = [1,2,3,4,5,6]
+console.log("O tamanho do array é de ",numeros.length,"numeros.")
+numeros.push("7")
+numeros.splice(3,2)
+console.log("O tamanho do array é de",numeros.length,"numeros.")
+console.log("Os numeros que estao no array atualmente são =",numeros)
+
+a
+b
+c.10
