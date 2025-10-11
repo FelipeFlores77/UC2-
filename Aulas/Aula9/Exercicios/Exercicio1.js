@@ -84,7 +84,7 @@ numeros.splice(3,2)
 console.log("O tamanho do array é de",numeros.length,"numeros.")
 console.log("Os numeros que estao no array atualmente são =",numeros)
 */
-
+/*
 let array
 console.log('a. ',array)
 // a. undefined,pois nao fui atribuido nada a array. 
@@ -103,7 +103,7 @@ console.log('e ',array)
 const valor = array[i+6]
 console.log('f. ',valor)
 // f. 9,vai imprimir 9 pois o "i" é o indice 0(quem esta no indice 0 é o numero 3),pulando 6 casas chegara no 9 cujo indice é 6.
-
+*/
 
 /*const frase = prompt("Digite uma frase")
 console.log(frase.toUpperCase().replace.All("A","I"), frase.length)
