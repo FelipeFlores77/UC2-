@@ -55,7 +55,7 @@ switch(paisOrigem.toLowerCase()){
                 default :
                 console.log("Nacionalidade não encontrada.")
                 break}
-                */
+                
 let pokemon = prompt("Escolha um pokemon entre Bulbassaur, Charmander e Squirtle.")
 
 switch(pokemon.toLowerCase()){
@@ -71,4 +71,92 @@ case 'squirtle' :
 default :
     console.log("Seu pokemon não foi encontrado.")
     break
+}
+
+let harryPoter = prompt("Me fale um personagem de Harry Poter.")
+
+switch(harryPoter.toLowerCase()){
+    case 'hermione' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'harry poter' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'rony weasley' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'gina weasley' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'fred weasley' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'jorge weasley' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'percy weasley' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'neville longbottom' :
+        console.log("Sua casa é a Grifinória.")
+        break
+        case 'lílian evans potter' :
+            console.log("Sua casa é a Grifinória.")
+            break 
+            case 'tiago potter':
+        console.log("Sua casa é a Grifinória.")
+        break
+   case 'ana' :
+console.log("Sua casa é a Lufa-lufa.")
+break
+   case 'luna' :
+    console.log("Sua casa é a Corvinal.")
+    break
+    case 'narcisa' :
+        console.log("Sua casa é a Sonserina.")
+        break
+default :
+console.log("Este aluna(o) nao esta definido.")
+}
+
+const ensino = prompt("Você terminou o ensino médio?").toLowerCase()==='sim'
+const idade = Number(prompt("Quantos anos voce tem?")) >=18
+let faculdade = prompt("Voce esta cursando outra faculdade?").toLowerCase() === 'sim'
+
+if(ensino&&!faculdade) {
+    comsole.log("Você pod estudar nessa faculdade")    
+}else{
+    console.log("Você não pode estudar nessa faculade")
+}
+
+const respostaDoUsuario = prompt("Digite o numero que voce quer testar")
+const numero = Number(respostaDoUsuario)
+if (numero % 2 === 0) {
+    console.log("Passou no teste")
+}else {
+    console.log("Nao passou no teste")
+}
+*/
+/*
+A.O código 
+B.Para numeros iguais a 2.
+C.Para qualquer numero diferente de 2.
+*/
+
+let fruta = prompt("Escolha uma fruta")
+let preco
+switch (fruta) {
+    case "Laranja":
+        preco = 3.5
+        break;
+        case "Maçã":
+            preco = 2.25
+            break;
+            case "Uva":
+                preco = 0.30
+                break;
+                case "Pêra":
+                    preco = 5.5
+                    break; // BREAK PARA O ITEM c.
+                    default
 }
