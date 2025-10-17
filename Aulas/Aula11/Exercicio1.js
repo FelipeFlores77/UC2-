@@ -141,7 +141,7 @@ if (numero % 2 === 0) {
 A.O código 
 B.Para numeros iguais a 2.
 C.Para qualquer numero diferente de 2.
-*/
+
 
 let fruta = prompt("Escolha uma fruta")
 let preco
@@ -158,5 +158,16 @@ switch (fruta) {
                 case "Pêra":
                     preco = 5.5
                     break; // BREAK PARA O ITEM c.
-                    default
+                    default :
+                    preco = 5
+                    break;
 }
+console.log("O preço da fruta ", fruta, " é ", "R$", preco)
+*/
+const numero = Number(prompt("Digite o primeiro numero."))
+
+if(numero > 0) {
+    console.log("Esse numero passou no teste")
+    let mensagem = "Essa mensagem é secreta!!!"
+}
+console.log(mensagem)
