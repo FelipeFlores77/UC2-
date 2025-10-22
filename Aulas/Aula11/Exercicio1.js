@@ -124,7 +124,7 @@ const idade = Number(prompt("Quantos anos voce tem?")) >=18
 let faculdade = prompt("Voce esta cursando outra faculdade?").toLowerCase() === 'sim'
 
 if(ensino&&!faculdade) {
-    comsole.log("Você pod estudar nessa faculdade")    
+    console.log("Você pod estudar nessa faculdade")    
 }else{
     console.log("Você não pode estudar nessa faculade")
 }
