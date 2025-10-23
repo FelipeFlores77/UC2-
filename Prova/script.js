@@ -1,4 +1,4 @@
-/*let velocidadeMadeira = 25
+let velocidadeMadeira = 25
 let velocidadePedra = 50
 let velocidadeFerro = 75
 let velocidadeDiamente = 100
@@ -7,6 +7,7 @@ let blocoMinerar1 = "Madeira"
 let blocoMinerar2 = "Pedra"
 let blocoMinerar3 = "Minério de diamante"
 let blocoMinerar4 = "Obsidiana"
+//if é uma condição (se),console.log para imprimir.
  if(blocoMinerar1) {
     console.log("Qualquer ferramenta funciona, mas a picareta de madeira é a mais simples , Velocidade", velocidadeMadeira,"!")
  }
@@ -19,6 +20,7 @@ if(blocoMinerar3){
 if(blocoMinerar4){
     console.log("Use a picareta de diamante, velocidade", velocidadeDiamente,"!")
 }
+// else  significa se não, e novamente console.log para imprimir.
 else{
     console.log("Qualquer ferramenta funciona, mas a de madeira é a mais simples.")
 }
@@ -39,7 +41,7 @@ else{
     console.log("O Creeper ainda está vivo com", vidaInimiga, "de vida. Corra!")
 }
 
-*/
+
 const temDiamantes = true
 let nivelMesaCrafting = 2
 const temGravetos = false
@@ -50,4 +52,3 @@ if(temGravetos || nivelMesaCrafting <= 3, temDiamantes && temFerro >=8){
 }
 else{
     console.log("Faltam recursos ou as condições de crafting não são atentidas!")}
-    
