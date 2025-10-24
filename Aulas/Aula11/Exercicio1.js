@@ -163,7 +163,7 @@ switch (fruta) {
                     break;
 }
 console.log("O preço da fruta ", fruta, " é ", "R$", preco)
-*/
+
 const numero = Number(prompt("Digite o primeiro numero."))
 
 if(numero > 0) {
@@ -171,3 +171,17 @@ if(numero > 0) {
     let mensagem = "Essa mensagem é secreta!!!"
 }
 console.log(mensagem)
+
+
+let idadeUsuario = Number(prompt("Qual sua idade?"))
+if(idadeUsuario >= 18){
+    console.log("Você pode dirigir!!")
+}else console.log("Você não pode dirigir, pois você é menor de idade!")
+*/
+
+let turno = prompt("Qual turno você estuda? M(Matutino), V(Vespertino), N(Noturno)")
+switch (turno.toLowerCase) {
+case "m"
+break;
+
+}

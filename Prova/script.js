@@ -42,9 +42,9 @@ else{
 }
 
 
-const temDiamantes = true
-let nivelMesaCrafting = 2
 const temGravetos = false
+let nivelMesaCrafting = 2
+const temDiamantes = false
 let temFerro = 10
 
 if(temGravetos || nivelMesaCrafting <= 3, temDiamantes && temFerro >=8){
