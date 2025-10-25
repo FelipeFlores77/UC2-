@@ -181,7 +181,7 @@ if(idadeUsuario >= 18){
 
 let turno = prompt("Qual turno você estuda? M(Matutino), V(Vespertino), N(Noturno)")
 switch (turno.toLowerCase) {
-case "m"
+case "m":
 break;
-
 }
+
