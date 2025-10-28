@@ -36,7 +36,7 @@ let meuArray = [10, 4, 7, 8, 200, 77]
 for(let i= 0; i<6; i++{
     console.log(meuArray[i])
 }
-*/
+
 let array = [13, 22, 77, 57, 71, 55]
 let maiornumero = 0 
 for(let i= 0; i<6; i++){
@@ -44,3 +44,57 @@ if(array[i] > maiornumero){
 maiornumero = array[i];
 }
 }console.log("O maior numero é:",maiornumero)
+
+const meuArray = [11, 15, 18, 14, 12, 13]
+let resultado = 0
+
+for(let i= 0; i<6; i++){
+    if(meuArray[i]%2 ===0){
+        resultado += meuArray[i]}}
+console.log("A soma dos numeros pares é ", resultado,".")
+
+const numeros = [14,67, 89, 15, 23]
+
+for(let numero of numeros) {
+    console.log(numero)
+}
+
+let palavras = ["Oi","sumido,","tudo","bem?","Saudades"]
+let frase = ""
+for(let palavra of palavras){
+    frase += palavra + " "
+}
+console.log(frase)
+
+let valor = 0
+for(let i = 0; i < 5; i++){//loop1 i =0, loop2 i =1, loop3 i = 2, loop4 i=3, Loop5 i=4,somando os valores de i
+    valor += i
+}
+console.log(valor)//resulatdo 10
+
+const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+for (let numero of lista){
+    if (numero > 18){
+        console.log(numero)
+    }
+}//vai ser impresso os numeros 19, 21, 23, 25, 27, 30.
+//daria pra fazer,só remover o "{if(numero > 18)}"
+
+const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
+let quantidadeAtual = 0
+while(quantidadeAtual < quantidadeTotal){
+    let linha = ""
+    for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
+        linha += "*"
+    }
+    console.log(linha)
+    quantidadeAtual++
+}
+*/
+let bichinho = Number(prompt("Quantos bichinhos voce tem?"))
+if(bichinho <= 0){
+    console.log("Que pena!Você pode adotar um pet!")
+}else if (bichinho > 0){
+let nomes = prompt("Digite o nome dos seus bichinhos um por um.")
+let nomesEmArray = nomes.split(",");
+}console.log(nomesEmArray)
