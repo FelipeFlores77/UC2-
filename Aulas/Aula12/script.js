@@ -90,11 +90,25 @@ while(quantidadeAtual < quantidadeTotal){
     console.log(linha)
     quantidadeAtual++
 }
-*/
+
+let nomes = []
 let bichinho = Number(prompt("Quantos bichinhos voce tem?"))
-if(bichinho <= 0){
+
+if(bichinho === 0){
     console.log("Que pena!Você pode adotar um pet!")
-}else if (bichinho > 0){
-let nomes = prompt("Digite o nome dos seus bichinhos um por um.")
-let nomesEmArray = nomes.split(",");
-}console.log(nomesEmArray)
+} else {
+    for(let i = 0; i < bichinho; i++){
+    let nomeBixos = prompt("Digite o nome dos bichinhos.")
+    nomes.push(nomeBixos)
+    }
+}
+console.log(nomes)
+*/
+let arrayOriginal = [77, 777, 2222, 4444, 7777, 8888]
+for(let i = 0; i < 6; i++){
+//console.log(arrayOriginal[i])
+}
+
+for(let i= 0; i < 6; i++){
+        console.log(arrayOriginal[i]/10)}
+        let novoArray = []
