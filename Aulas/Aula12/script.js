@@ -78,7 +78,7 @@ for (let numero of lista){
         console.log(numero)
     }
 }//vai ser impresso os numeros 19, 21, 23, 25, 27, 30.
-//daria pra fazer,só remover o "{if(numero > 18)}"
+//Poderiamos simplesmente"
 
 const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
 let quantidadeAtual = 0
@@ -91,24 +91,73 @@ while(quantidadeAtual < quantidadeTotal){
     quantidadeAtual++
 }
 
-let nomes = []
 let bichinho = Number(prompt("Quantos bichinhos voce tem?"))
 
 if(bichinho === 0){
     console.log("Que pena!Você pode adotar um pet!")
-} else {
+} else {let nomes = []
     for(let i = 0; i < bichinho; i++){
-    let nomeBixos = prompt("Digite o nome dos bichinhos.")
-    nomes.push(nomeBixos)
+    nomes.push(prompt("Digite o nome dos bichinhos."))
     }
 }
 console.log(nomes)
-*/
-let arrayOriginal = [77, 777, 2222, 4444, 7777, 8888]
-for(let i = 0; i < 6; i++){
-//console.log(arrayOriginal[i])
+
+let arrayOriginal = [22, 777, 88, 4444, 7777, 8888]
+
+//a
+for(let numero of arrayOriginal){
+console.log(numero)
 }
 
-for(let i= 0; i < 6; i++){
-        console.log(arrayOriginal[i]/10)}
-        let novoArray = []
+//b
+for(let numero of arrayOriginal){
+        console.log(numero/10)}
+
+//c
+        let arrayPares = []
+        for(let numero of arrayOriginal){if(numero%2===0){arrayPares.push(numero)}}
+        console.log(arrayPares)
+
+//d
+        let arrayFrases = []
+        for(let i=0;i<arrayOriginal.length;i++){
+            arrayFrases.push("O elemento do index" + i +"é:" + arrayOriginal[i])
+        }console.log(arrayFrases)
+
+//e
+        let maiorNumero = arrayOriginal[0] let menorNumero = arrayOriginal[0]
+        for(let numero of arrayOriginal){if(numero>maiorNumero){maiorNumero=numero}
+    else if(numero<menorNumero){menorNumero=numero}}
+    console.log("menorNumero é:",menorNumero,"maiorNumero é:",maiorNumero)
+    */
+  /* 
+   let contadoro = [1,2,3,4,5,6,7,8,9,10]
+   for(numero of contadoro){
+    console.log(numero)
+}
+
+contadoro = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    for(let numero of contadoro)
+        if(numero%2===0)
+        console.log(contadoro)
+
+        const taubauada = Number(prompt('Digite um numero'))
+        for(let i=1;i<=10;i++){ 
+            console.log(`${taubauada} x ${i} = ${taubauada * i}`)
+        }
+        
+       let soma = 0
+       for(let i = 0; i < 5; i++){
+        const numeros = prompt("Digite um numero")
+        
+        const numero = Number(numeros)
+
+        if()
+       }*/
+       let soma = 0
+       for (let i = 0; i < 5; i++) {
+         let numero = Number(prompt('Digite um numero:'))
+         soma += (numero)
+       }
+       alert(`A soma dos 5 números é: ${soma}`)
+       console.log("A soma dos números é", soma)
