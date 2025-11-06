@@ -61,7 +61,7 @@ console.log("A variavel b",b)
     console.log(resultadoArea)
     console.log(calculaArea(5,4))
 
-    */
+    
    function numeros(num1,num2){
     let soma = num1 + num2
     return soma
@@ -69,7 +69,39 @@ console.log("A variavel b",b)
    let reusltado = numeros(6,4)
    console.log(reusltado)
 
-function [1,2,3,4,5,6]{
-    let novoArray
+
+let arrayNumeros = [7,77,777,7777]
+function divisao(array){
+    let novoArray = []
+    novoArray.push(array[0]/2)
+    novoArray.push(array[array.length-1]/2)
     return novoArray
 }
+console.log(divisao(arrayNumeros));
+
+let calcular = function(){
+    let soma = 2 + 5
+    console.log(`A soma dos numeros é: ${soma}`)
+}
+calcular();
+
+let dobrar = () => {
+    let dobro = 17 * 2
+    console.log(`O dobro de 17 é: ${dobro}`)
+}
+dobrar();
+*/
+function determinaMonstro(temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSedeDeSangue){
+
+
+if(temPeleGelada && temSedeDeSangue && !transformaComLuaCheia){
+    return "Vampiro";
+}else if(temPeleGelada && transformaComLuaCheia ){
+return "Lobisomen";
+}else {
+    return "Humano";
+}
+}
+console.log(determinaMonstro(true,false,false,true))
+console.log(determinaMonstro(false,true,false,false))
+console.log(determinaMonstro(true,true,false,false))
