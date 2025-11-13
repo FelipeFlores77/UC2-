@@ -59,13 +59,13 @@ function novo(objeto) {
 
 novo(pessoa)
 
-*/
+
 let personagens = [
     { nome: "Naruto", idade: 12, estilo: "Vento", jutsus: ["Taijutsu,Ninjutsu"] },
     { nome: "Kakashi", idade: 26, estilo: "Raio", jutsus: ['Atemi', 'Chidori', 'Cilada'] },
     { nome: "Gaara", idade: 12, estilo: 'Areia', jutsus: ['Armadura de areia', 'Caixão de areia', 'Chuva de areia'] }
 ]
-
+console.log(personagens)
 const novoPersonagem = {
 nome: "Shikamaru Nara",idade: 12,classe:"Ninjutsu",jutsus: "Rajada de Leões"
 }
@@ -78,14 +78,75 @@ let adicionarPersonagem = function (personagem) {
 adicionarPersonagem(novoPersonagem)
 
 
-function buscarPersonagem(nome) {
-    const personagemEncontrado = personagens.find(
-      (personagem) => personagem.nome.toLowerCase() === nome.toLowerCase()
-    );
+function buscarPersonagem(nomeBuscado) {
+    function person(perso){
+    return personagens.nome.toLowerCase() === nomeBuscado.toLowerCase()
+    }
   
+    const personagemEncontrado = personagens.find(person)
     if (personagemEncontrado) {
-      return personagemEncontrado;
+      console.log(`Personagem ${personagemEncontrado} encontrado com sucesso!!`)
+      return personagemEncontrado;   
     } else {
-      return `Personagem "${nome}" não encontrado.`;
-      con
-    }}
+      return `Personagem com nome "${nome}" não encontrado.`;
+    }
+}
+buscarPersonagem("naruto")
+*/
+
+
+
+
+
+
+
+/*
+const filme = {
+    nome: "Auto da compadecida",
+    ano: 2000,
+    elenco : [
+        "Matheus Nachtergaele","Selton Mello","Denise Fraga","Virginia Cavendish"
+    ],
+    transmissoesHoje: [
+    {canal: "Telecine", horario: "21h",},
+    {canal: "Canal Brasil",horario: "19h"},
+    {canal: "Globo",horaio: "14h"}
+    ]
+}
+console.log(filme.elenco[0])//Matheus Nachtergaele
+console.log(filme.elenco[filme.elenco.length -1])//Virginia Cavendish
+console.log(filme.transmissoesHoje[2])//canal: Globo horario: 14h
+
+const cachorro = {
+    nome: 'Juca',
+    idade: 3,
+    raça: 'SRD'
+}
+const gato = {...cachorro, nome:"Juba"}
+
+const tartaruga = {...gato, nome: gato.nome.replaceAll("a","o")}
+
+console.log(cachorro)//nome: 'Juca' idade: 3 raça: 'SRD
+console.log(gato)//nome: "Jubo" idade: 3 raça: 'SRD'
+console.log(tartaruga)//nome: 'Jubo' idade: 3 raça: 'SRD'
+
+
+Os três pontos antes do nome de um objeto é a sintaxe de espelhamento das propiedasdes de um outro //objeto
+
+function minhaFuncao(objeto, propiedade){
+    return objeto[propiedade]
+}
+const pessoa = {
+    nome: "Caio",
+    idade: 23,
+    backender: false
+}
+
+console.log(minhaFuncao(pessoa,  "backender"))
+console.log(minhaFuncao(pessoa, "altura"))
+*/
+let pessoa1 = function() {
+    {nome: "Lucas Gabriel",
+    apelidos:["Mestre","Prof","Lu"]}
+ console.log(`Eu sou Lucas, mas pode me chamar de ${apelidos[0]},${apelidos[1]} ou ${apelidos[2]}`)
+}
