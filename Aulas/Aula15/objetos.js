@@ -144,9 +144,9 @@ const pessoa = {
 
 console.log(minhaFuncao(pessoa,  "backender"))
 console.log(minhaFuncao(pessoa, "altura"))
-*/
+*
 let pessoa1 = function() {
     {nome: "Lucas Gabriel",
     apelidos:["Mestre","Prof","Lu"]}
  console.log(`Eu sou Lucas, mas pode me chamar de ${apelidos[0]},${apelidos[1]} ou ${apelidos[2]}`)
-}
+}*/
